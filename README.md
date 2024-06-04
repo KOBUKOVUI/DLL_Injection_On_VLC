@@ -5,7 +5,7 @@ ____
 This project explores the topic of DLL (Dynamic Link Library) injection and specifically   
 focuses on the CVE-2010-3124. 
 
-CVE-2010-3124 refers to an untrusted search path vulnerability found in VLC Media Player   
+_CVE-2010-3124_ refers to an untrusted search path vulnerability found in VLC Media Player   
 version 1.1.3 and earlier.  
 
 Here are key points that can help you have a better overview about this project: 
@@ -21,5 +21,6 @@ allow an attacker to take control of the affected system.
 **Attention** :warning: :warning: :warning:
 
 > Feel free to explore our code, documentation, and any additional resources within this   
-repository. Remember to use this knowledge responsibly and ethically. Happy hacking! 🚀🔍🔐
+>repository. Remember to use this knowledge responsibly and ethically. Happy hacking!  
+>🚀🔍🔐
 > 
