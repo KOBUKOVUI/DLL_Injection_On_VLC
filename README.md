@@ -2,11 +2,9 @@
 ____
 
 ## Overview :seedling:
-This project explores the topic of DLL (Dynamic Link Library) injection and specifically   
-focuses on the CVE-2010-3124. 
+This project explores the topic of DLL (Dynamic Link Library) injection and specifically focuses on the CVE-2010-3124. 
 
-_CVE-2010-3124_ refers to an untrusted search path vulnerability found in VLC Media Player   
-version 1.1.3 and earlier.  
+_CVE-2010-3124_ refers to an untrusted search path vulnerability found in VLC Media Player version 1.1.3 and earlier.  
 
 Here are key points that can help you have a better overview about this project: 
 - **Vulnerability**: The issue arises due to an insecure search path used by  
@@ -28,15 +26,12 @@ allow an attacker to take control of the affected system.
 ## What are DLL injection and CVE-2010-3124? :file_folder:
 
 ### **DLL**
-DLL stands for Dynamic Link Library and DLL files are modules that contain functions  
-and data that can be used by other programs or DLLs. DLL files allow programs to share common   
-functionality and reduce memory usage. They also enable programs to interact with the Windows   
-operating system and its components.  
+DLL stands for Dynamic Link Library and DLL files are modules that contain functions and data that can be used by other 
+programs or DLLs. DLL files allow programs to share common functionality and reduce memory usage. They also enable programs to interact with the Windows operating system and its components.  
 ![DLLeg](imgs/DLLeg.jpeg)
 
 ### **DLL Injection** 
-DLL injection is a technique used to run code within the address space of another process by  
-forcing it to load a malicious dynamic-link library (DLL). In a DLL injection attack, the attacker exploits vulnerabilities in a target process to inject malicious DLLs. Once successfully injected, the malicious DLL can perform a variety of malicious actions, such as stealing sensitive information, modifying the behavior of the application, or facilitating further attacks.  
+DLL injection is a technique used to run code within the address space of another process by forcing it to load a malicious dynamic-link library (DLL). In a DLL injection attack, the attacker exploits vulnerabilities in a target process to inject malicious DLLs. Once successfully injected, the malicious DLL can perform a variety of malicious actions, such as stealing sensitive information, modifying the behavior of the application, or facilitating further attacks.  
 ![DLLExplanation](imgs/DLLExplanation.png)
 
 ### **CVE-2010-3124** 
