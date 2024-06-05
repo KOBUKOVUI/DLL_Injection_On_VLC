@@ -1,7 +1,7 @@
 import ctypes 
-#take the dll_path and the PID 
-process_ID = input("Enter the PID: ")
-dll_path = input("Enter the path of the DLL: ")
+#take the dll_path and the PID of the target  
+process_ID = " "
+dll_path = " "
 
 def dll_injection(process_ID, dll_path): 
     # use LoadLibrayA to load the DLL 
@@ -52,12 +52,13 @@ def dll_injection(process_ID, dll_path):
         0, 
         ctypes.byref(ctypes.c_ulong(0))
     )
+    #check
     if not thread_id: 
         print("Can not create thread in the process")
         return False
     #Done 
     return True 
-
+# Inject
 if(dll_injection(process_ID, dll_path)): 
     print("SUCCESSFULLY inject")
 else: 
