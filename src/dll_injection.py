@@ -18,7 +18,7 @@ def dll_injection(process_ID, dll_path):
     )
     #check
     if not process_handle: 
-        print("Can nt open the process")
+        print("Can not open the process")
         return False 
     
     #Get the address of LoadLibraryA in the process 
@@ -60,7 +60,7 @@ def dll_injection(process_ID, dll_path):
     return True 
 # Inject
 if(dll_injection(process_ID, dll_path)): 
-    print("SUCCESSFULLY inject")
+    print("SUCCESSFULLY injected")
 else: 
     print("FAILED")
 
